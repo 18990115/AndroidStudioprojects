@@ -17,6 +17,7 @@
         tools:layout_editor_absoluteX="0dp" />
 
     <Button
+        android:background="@drawable/bt_drawable"
         android:id="@+id/btn_centerInside"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -30,6 +31,7 @@
         app:layout_constraintTop_toTopOf="@+id/btn_centerCrop" />
 
     <Button
+        android:background="@drawable/bt_drawable"
         android:id="@+id/btn_centerCrop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -44,6 +46,7 @@
         app:layout_constraintTop_toTopOf="@+id/btn_fitCenter" />
 
     <Button
+        android:background="@drawable/bt_drawable"
         android:id="@+id/btn_fitCenter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -56,8 +59,9 @@
         app:layout_constraintTop_toBottomOf="@+id/iv_scale" />
 
     <Button
+        android:background="@drawable/bt_drawable"
         android:id="@+id/btn_center"
-        android:layout_width="wrap_content"
+        android:layout_width="95dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginLeft="10dp"
@@ -70,8 +74,9 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_fitCenter" />
 
     <Button
+        android:background="@drawable/bt_drawable"
         android:id="@+id/btn_fitXY"
-        android:layout_width="wrap_content"
+        android:layout_width="95dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:layout_marginLeft="5dp"
@@ -84,8 +89,9 @@
         app:layout_constraintTop_toTopOf="@+id/btn_center" />
 
     <Button
+        android:background="@drawable/bt_drawable"
         android:id="@+id/btn_fitStart"
-        android:layout_width="wrap_content"
+        android:layout_width="95dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:layout_marginLeft="5dp"
@@ -98,8 +104,9 @@
         app:layout_constraintTop_toTopOf="@+id/btn_fitXY" />
 
     <Button
+        android:background="@drawable/bt_drawable"
         android:id="@+id/btn_fitEnd"
-        android:layout_width="wrap_content"
+        android:layout_width="95dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:layout_marginLeft="5dp"
